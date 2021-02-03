@@ -1,0 +1,165 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #531d40;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #531d40;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #961d6c;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #531d40 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+}
+
+a: hover {
+  color: #531d40;
+}
+
+/*---------- CLASS CONTAINER ----------*/
+.top-container {
+  background-color: #ffe3dc;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #a98c91;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/*----- CLOUD -----*/
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: black;
+  padding-left: 20px;
+}
+
+/*----- SKILLS -----*/
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+}
+
+.computer-img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  /* margin-top: -30px; */
+}
+
+.chilli-img {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+  /* margin-top: -30px; */
+}
+
+.chilli-h3 {
+  margin-top: 200px;
+}
+
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 25px;
+  background: #531d40;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #803666;
+  text-decoration: none;
+}
+
+.balloon-image {
+    position: absolute;
+    left: calc(50% - 70.5px);
+    bottom: 250px;
+    animation-name: balloon-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balloon-animation {
+  0% {
+      bottom: 250;
+  }
+  50% {
+      bottom: 265px;
+  }
+  100% {
+      bottom: 250px;
+  }
+}
+
+
+.mountain {
+  margin-top: 15%;
+}
