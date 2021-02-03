@@ -159,7 +159,11 @@ a: hover {
   }
 }
 
-
 .mountain {
   margin-top: 15%;
+}
+
+.profile-img {
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 4px #ACACAC;
 }
